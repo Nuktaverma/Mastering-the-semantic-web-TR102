@@ -6,16 +6,12 @@
     width: 1170px;
     height: auto;
     margin: 0 auto;
-    position: relative;
-    
+    position: relative;  
 }
 .topheader{
     width: 100%;
     height: auto;
     background-color: white;
-}
-.topheader img{
-    position: relative;
 }
 .navbar ul{
     margin-top: 40px;
@@ -39,11 +35,216 @@
     background-color: white;
     position: absolute;
     top: 30px;
-    left: 1000px;
+    right: 100px;
     font-weight: bold;
-    padding: 8px 20px;
+    padding: 5px 20px;
 }
 .navbar button:hover{
     font-weight: bolder;
     background-color: aqua;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.content .written{
+    float: left;
+    max-width: 50%;
+    padding-right: 50px;
+}
+.content .written h1{
+    /* padding-top: 180px;*/
+    padding-left: 20px;
+    padding-right: 30px; 
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    font-size: xx-large;
+    float: left;
+    margin-bottom: 20px
+}
+.content p{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-size: smaller;
+    float: left;
+}
+.content img{
+    /* padding-top: 100px; */
+    position: absolute;
+    right: 180px;
+    top: 120px;
+    float: right;
+    /* padding-left: 20px; */
+    height: auto;
+}
+.logs{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.logs img{
+    margin-top: -9px;
+    height: 300px;
+}
+.logs .logs-written{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    text-align: center;
+}
+.logs-written h3{
+    font-size: xx-large;
+}
+.logs-written p{
+    font-weight: lighter;
+    font-size: small;
+    text-align: center;
+}
+.logs button{
+    padding: 10px ;
+    font-size: small;
+    font-weight: bold;
+    background-color: #000;
+    color: white;
+    border-color: #fff;
+}
+.logs button:hover{
+    font-weight: bolder;
+}
+
+.pictures{
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+    height: auto;
+}
+.pictures img{
+    margin-top: -9px;
+    height: 400px;
+}
+.pictures-content .container{
+    padding: 10px;
+    margin: 10px;
+}
+.pictures .pictures-content .picture1 {
+    width: 390px;
+    height: 300px;
+    position: absolute;
+    bottom: 150px;
+    left: 15px;
+    float: left;
+}
+.pictures .pictures-content .picture1 .pic1 {
+    width: 280px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+  }
+.pictures .pictures-content .picture1 h3 {
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    font-family: cursive;
+}
+.pictures .pictures-content .picture1 p {
+    font-size: small;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px;
+}
+.pictures .pictures-content .picture2 {
+    width: 390px;
+    height: 300px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pictures .pictures-content .picture2 .pic2{
+    width: 280px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+}
+.pictures .pictures-content .picture2 h3 {
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    font-family: cursive;
+}
+.pictures .pictures-content .picture2 p {
+    font-size: small;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px;
+}
+.pictures .pictures-content .picture3 {
+    width: 390px;
+    height: 80px;
+    position: absolute;
+    right: 15px;
+    bottom: 370px;
+    float: right;
+}
+.pictures .pictures-content .picture3 .pic3 {
+    height: 250px;
+    width: 280px;
+    align-items: center;
+    margin: 10px;
+}
+.pictures .pictures-content .picture3 h3 {
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    font-family: cursive;
+}
+.pictures .pictures-content .picture3 p {
+    font-size: small;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px;
+}
+
+/* designing for logo background image starts */
+.logo img{
+    margin-top: -10px;
+    position: relative;
+}
+/* designing for logo background image ends */
+
+/* logo content designing starts */
+.logo .logo-content .logo-pic {
+    width: 390px;
+    height: 300px;
+    position: absolute;
+    bottom: 300px;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.logo .logo-content .logo-pic .aeroplane{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 0px;
+
+}
+.logo .logo-content .logo-pic h1 {
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    left: 30%;
+
+}
+.logo .logo-content .logo-pic p {
+    font-size: small;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px;
 }
